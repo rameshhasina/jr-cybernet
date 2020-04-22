@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"><!--<![endif]--><head>
+<meta charset="utf-8">
+<title>TechBlog | HTML Design</title>
+
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS Style -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Used Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+
+<!-- JavaScript -->
+<iframe id="pxcelframe" style="display: none;" src="//t.sharethis.com/a/t_.htm?ver=0.415.19555&amp;cid=c010&amp;cls=B#cid=c010&amp;cls=B&amp;dmn=html.design&amp;gdpr_consent=BOm1Dg-Om1Dg-B7C0BENCl-AAAAqV7_______9______9uz_Ov_v_f__33e8__9v_l_7_-___u_-3zd4u_1vf99yfm1-7etr3tp_87ues2_Xur__79__3z3_9phP78k89r7337Ew-v-3o8A&amp;gdpr_domain=.consensu.org&amp;rnd=1587541081159&amp;tt=t.dhj&amp;dhjLcy=1462&amp;lbl=pxcel&amp;flbl=pxcel&amp;ll=d&amp;ver=0.415.19555&amp;ell=d&amp;cck=__stid&amp;pn=%2Fpreview%2F&amp;qs=theme%3DTechBlog&amp;rdn=html.design&amp;rpn=%2Fdownload%2Ftech-blog-news-template%2F&amp;rqs=na&amp;cc=IN&amp;cont=AS&amp;ipaddr="></iframe><script async="" src="https://count-server.sharethis.com/v2.0/get_counts?cb=window.__sharethis__.cb3&amp;url=https%3A%2F%2Fhtml.design%2Fpreview%2F%3Ftheme%3DTechBlog"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://buttons-config.sharethis.com/js/5a7fc9b308e4bc00136bbe96.js"></script><script type="text/javascript" async="" src="//cdn.adclerks.com/core/ad2/9799/6523?r=55620"></script><script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<script>
+var theme_list_open=false;
+$(document).ready(function(){function e(){var e=$("#switcher")
+.height();$("#iframe")
+.attr("height",
+$(window).height()-e+"px")}
+IS_IPAD=navigator.userAgent.match(/iPad/i)!=null;
+$(window).resize(function(){e()}).resize();
+$("#theme_select").click(function(){if(theme_list_open==true){
+$(".center ul li ul").hide();theme_list_open=false}else{
+$(".center ul li ul").show();theme_list_open=true}return false});
+$("#theme_list ul li a").click(function(){var e=$(this).attr("rel").split(",");
+$("li.purchase a").attr("href",e[1]);
+$("li.remove_frame a").attr("href",e[0]);
+$("#iframe").attr("src",e[0]);
+window.location.href = "?theme="+e[2]+""
+$("li.close a").attr("src",e[0]);
+$("#theme_list a#theme_select").text($(this).text());
+$(".center ul li ul").hide();theme_list_open=false;return false});
+$("#header-bar").hide();clicked="desktop";var t={desktop:"100%",tabletlandscape:1040,tabletportrait:788,mobilelandscape:500,mobileportrait:340,placebo:0};jQuery(".responsive a").on("click",function(){var e=jQuery(this);for(device in t){console.log(device);console.log(t[device]);if(e.hasClass(device)){clicked=device;jQuery("#iframe").width(t[device]);if(clicked==device){jQuery(".responsive a").removeClass("active");e.addClass("active")}}}return false});if(IS_IPAD){
+$("#iframe").css("padding-bottom","60px")
+}}
+)
+</script>
+
+
+<style type="text/css">#st-2 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  backface-visibility: hidden;
+  display: block;
+  position: fixed;
+  opacity: 1;
+  text-align: left;
+  top: 200px;
+  z-index: 94034;
+}
+#st-2.st-left {
+  left: 0px;
+}
+#st-2.st-hidden.st-left {
+  left: -48px;
+}
+#st-2.st-hidden {
+  width: 96px;
+}
+#st-2 > div {
+  clear: left;
+  float: left;
+}
+#st-2 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: NaNpx;
+  height: 48px;
+  line-height: 24px;
+  margin-bottom: 0;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 48px;
+}
+#st-2 .st-btn.st-first {
+  border-top: none;
+  border-top-right-radius: 0px;
+}
+#st-2 .st-btn.st-last {
+  border-bottom: none;
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn > svg {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-2 .st-btn > img {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-2 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  left: -35px;
+  letter-spacing: 0.5px;
+  opacity: 0;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+  filter: alpha(opacity=0);
+}
+#st-2 .st-btn.st-hide-label > span {
+  display: none !important;
+}
+#st-2 .st-total {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #fff;
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  min-height: 34px;
+  max-width: 80px;
+  opacity: 1;
+  padding: 4px 0;
+  text-align: center;
+  width: 48px;
+}
+#st-2 .st-total.st-hidden {
+  display: none;
+}
+#st-2 .st-total > span {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+}
+#st-2 .st-total > span.st-shares {
+  font-size: 11px;
+  line-height: 11px;
+}
+#st-2 .st-toggle {
+  left: -48px;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #ccc;
+  border-bottom-right-radius: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  width: 48px;
+}
+#st-2.st-hidden .st-toggle {
+  border-top-right-radius: 0px;
+}
+#st-2.st-left .st-toggle .st-left {
+  display: inline-block;
+}
+#st-2.st-left.st-hidden .st-toggle .st-left {
+  display: none;
+}
+#st-2.st-left .st-toggle .st-right {
+  display: none;
+}
+#st-2.st-left.st-hidden .st-toggle .st-right {
+  display: inline-block;
+}#st-2:hover .st-toggle {
+  left: 0;
+}
+#st-2.st-hidden:hover .st-toggle {
+  left: 48px;
+}
+#st-2.st-toggleable:hover .st-btn.st-last {
+  border-bottom-right-radius: 0;
+}
+#st-2.st-toggleable:hover .st-btn.st-last:hover {
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn:hover {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#st-2.st-has-labels .st-btn:hover {
+  width: 120px;
+}
+#st-2:not(.st-has-labels) .st-btn:hover {
+  width: 62px;
+}
+#st-2 .st-btn.st-hide-label:hover {
+  width: 62px;
+}
+#st-2 .st-btn:hover > svg {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > img {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > span {
+  opacity: 1;
+  display: inline-block;
+  left: 0;
+  filter: alpha(opacity=100);
+}
+@media (max-width: 1024px) {
+  #st-2 .st-btn:hover > svg {
+    margin-left: 0;
+  }
+  #st-2 .st-btn:hover > span {
+    display: none;
+  }
+}@media (max-width: 1024px) {
+  #st-2 {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+#st-2.st-hidden {
+  bottom: -48px;
+  width: 100%;
+}
+#st-2.st-hidden.st-left {
+  left: 0;
+}
+#st-2.st-hidden.st-right {
+  right: 0;
+}
+#st-2 > div {
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  clear: none;
+  flex: 1;
+  float: none;
+}
+#st-2 .st-total {
+  background: #fff;
+  padding: 6px 8px;
+}
+#st-2 .st-btn {
+  -moz-border-radius: 0 !important;
+-webkit-border-radius: 0 !important;
+border-radius: 0 !important;
+  text-align: center;
+  width: auto;
+}
+#st-2 .st-btn > span {
+  display: none;
+}
+#st-2 .st-toggle {
+  display: none;
+}body { padding-bottom: 48px; }
+}#st-2 .st-btn[data-network='facebook'] {
+  background-color: #4267B2;
+}
+#st-2 .st-btn[data-network='facebook'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='facebook'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+}
+#st-2 .st-btn[data-network='twitter'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='twitter'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='pinterest'] {
+  background-color: #CB2027;
+}
+#st-2 .st-btn[data-network='pinterest'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='pinterest'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A;
+}
+#st-2 .st-btn[data-network='sharethis'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='sharethis'] > span {
+  color: #fff;
+}</style></head>
+<body>
+
+
+    <div id="switcher">
+<div class="center">
+<div class="responsive">
+<div class="itemname">TechBlog</div>
+<a href="#" class="desktop active" title="View Desktop Version"></a>
+<a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a>
+<a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a>
+<a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
+<a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
+</div>
+
+            <ul class="links">
+                <li class="backtosite ads">
+                <!-- Begin AdClerks Zone 6523 -->
+<script type="text/javascript">
+(function() {
+var randpubc = Math.floor((Math.random() * 100000) + 1);
+var pubc = document.createElement('script');
+pubc.type = 'text/javascript';
+pubc.async = true;
+pubc.src = '//cdn.adclerks.com/core/ad2/9799/6523?r='+parseInt(randpubc);
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pubc, s);
+})();
+</script>
+<div id="pubclerks_6523"><style type="text/css">.pc_block a{color: #666!important; margin:0; padding:0;}.pc_block a:hover{color: #222!important;}.pc_block {margin: 0;}.pc_block:hover {margin: 0;background: #ddd;text-decoration: underline !important;}.pc_block_inactive {border: 1px solid #BBB;}.pc_block_inactive:hover {border: 1px solid #999;}</style><div class="pc_multiblock"><div class="pc_block pc_block_inactive" style="box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; overflow: hidden; text-align:center; font-size: 11px; font-family:helvetica; font-weight: bold; width:275px; height:60px; background:#E7E7E7; color:#666; line-height:60px;"><a style="text-decoration:none;" target="_blank" href="//adclerks.com/marketplace/website/13702/free-html-templates"><div style="width:275px; height:60px; overflow: hidden; background: transparent; font-weight: bold;">Advertise Here</div></a></div></div></div>
+<!-- End AdClerks Zone 6523 -->
+
+                </li>
+                <li class="backtosite" rel="https://html.design/downloads/tech-blog-free-tech-news-blog-responsive-html-template/">
+                    <a href="https://html.design/downloads/tech-blog-free-tech-news-blog-responsive-html-template/"><img src="images/purchase.png" alt="Download"> Download</a>
+                </li>
+                <li class="backtosite" rel="https://html.design/demo/tech-blog/tech-index.html">
+                    <a href="https://html.design/demo/tech-blog/tech-index.html"><img src="images/cross.png" alt="Remove"> Remove</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <iframe id="iframe" src="https://html.design/demo/tech-blog/tech-index.html" width="100%" height="324px" frameborder="0"></iframe>
+
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a7fc9b308e4bc00136bbe96&amp;product=sticky-share-buttons"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-45529136-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45529136-9');
+</script>
+
+
+
+
+
+<iframe src="https://c.sharethis.mgr.consensu.org/portal-v2.html" id="st_gdpr_iframe" title="GDPR Consent Management" style="width: 0px; height: 0px; position: absolute; left: -5000px;"></iframe><div id="st-2" class=" st-sticky-share-buttons st-left st-toggleable st-has-labels st-show-total "><div class="st-total ">
+  <span class="st-label">218</span>
+  <span class="st-shares">
+    Shares
+  </span>
+</div><div class="st-btn st-first" data-network="facebook" style="display: inline-block;">
+  <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="twitter" style="display: inline-block;">
+  <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+  <span class="st-label">Tweet</span>
+</div><div class="st-btn" data-network="pinterest" style="display: inline-block;">
+  <img alt="pinterest sharing button" src="https://platform-cdn.sharethis.com/img/pinterest.svg">
+  <span class="st-label">Pin</span>
+</div><div class="st-btn st-last" data-network="sharethis" style="display: inline-block;">
+  <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-toggle">
+  <div class="st-left">
+    <img alt="arrow_left sharing button" src="https://platform-cdn.sharethis.com/img/arrow_left.svg">
+  </div>
+  <div class="st-right">
+    <img alt="arrow_right sharing button" src="https://platform-cdn.sharethis.com/img/arrow_right.svg">
+  </div>
+</div></div></body></html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>TechBlog | HTML Design</title>
+
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS Style -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Used Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+
+<!-- JavaScript -->
+<iframe id="pxcelframe" style="display: none;" src="//t.sharethis.com/a/t_.htm?ver=0.415.19555&amp;cid=c010&amp;cls=B#cid=c010&amp;cls=B&amp;dmn=html.design&amp;gdpr_consent=BOm1Dg-Om1Dg-B7C0BENCl-AAAAqV7_______9______9uz_Ov_v_f__33e8__9v_l_7_-___u_-3zd4u_1vf99yfm1-7etr3tp_87ues2_Xur__79__3z3_9phP78k89r7337Ew-v-3o8A&amp;gdpr_domain=.consensu.org&amp;rnd=1587541081159&amp;tt=t.dhj&amp;dhjLcy=1462&amp;lbl=pxcel&amp;flbl=pxcel&amp;ll=d&amp;ver=0.415.19555&amp;ell=d&amp;cck=__stid&amp;pn=%2Fpreview%2F&amp;qs=theme%3DTechBlog&amp;rdn=html.design&amp;rpn=%2Fdownload%2Ftech-blog-news-template%2F&amp;rqs=na&amp;cc=IN&amp;cont=AS&amp;ipaddr="></iframe><script async="" src="https://count-server.sharethis.com/v2.0/get_counts?cb=window.__sharethis__.cb3&amp;url=https%3A%2F%2Fhtml.design%2Fpreview%2F%3Ftheme%3DTechBlog"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://buttons-config.sharethis.com/js/5a7fc9b308e4bc00136bbe96.js"></script><script type="text/javascript" async="" src="//cdn.adclerks.com/core/ad2/9799/6523?r=55620"></script><script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<script>
+var theme_list_open=false;
+$(document).ready(function(){function e(){var e=$("#switcher")
+.height();$("#iframe")
+.attr("height",
+$(window).height()-e+"px")}
+IS_IPAD=navigator.userAgent.match(/iPad/i)!=null;
+$(window).resize(function(){e()}).resize();
+$("#theme_select").click(function(){if(theme_list_open==true){
+$(".center ul li ul").hide();theme_list_open=false}else{
+$(".center ul li ul").show();theme_list_open=true}return false});
+$("#theme_list ul li a").click(function(){var e=$(this).attr("rel").split(",");
+$("li.purchase a").attr("href",e[1]);
+$("li.remove_frame a").attr("href",e[0]);
+$("#iframe").attr("src",e[0]);
+window.location.href = "?theme="+e[2]+""
+$("li.close a").attr("src",e[0]);
+$("#theme_list a#theme_select").text($(this).text());
+$(".center ul li ul").hide();theme_list_open=false;return false});
+$("#header-bar").hide();clicked="desktop";var t={desktop:"100%",tabletlandscape:1040,tabletportrait:788,mobilelandscape:500,mobileportrait:340,placebo:0};jQuery(".responsive a").on("click",function(){var e=jQuery(this);for(device in t){console.log(device);console.log(t[device]);if(e.hasClass(device)){clicked=device;jQuery("#iframe").width(t[device]);if(clicked==device){jQuery(".responsive a").removeClass("active");e.addClass("active")}}}return false});if(IS_IPAD){
+$("#iframe").css("padding-bottom","60px")
+}}
+)
+</script>
+
+
+<style type="text/css">#st-2 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  backface-visibility: hidden;
+  display: block;
+  position: fixed;
+  opacity: 1;
+  text-align: left;
+  top: 200px;
+  z-index: 94034;
+}
+#st-2.st-left {
+  left: 0px;
+}
+#st-2.st-hidden.st-left {
+  left: -48px;
+}
+#st-2.st-hidden {
+  width: 96px;
+}
+#st-2 > div {
+  clear: left;
+  float: left;
+}
+#st-2 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: NaNpx;
+  height: 48px;
+  line-height: 24px;
+  margin-bottom: 0;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 48px;
+}
+#st-2 .st-btn.st-first {
+  border-top: none;
+  border-top-right-radius: 0px;
+}
+#st-2 .st-btn.st-last {
+  border-bottom: none;
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn > svg {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-2 .st-btn > img {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-2 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  left: -35px;
+  letter-spacing: 0.5px;
+  opacity: 0;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+  filter: alpha(opacity=0);
+}
+#st-2 .st-btn.st-hide-label > span {
+  display: none !important;
+}
+#st-2 .st-total {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #fff;
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  min-height: 34px;
+  max-width: 80px;
+  opacity: 1;
+  padding: 4px 0;
+  text-align: center;
+  width: 48px;
+}
+#st-2 .st-total.st-hidden {
+  display: none;
+}
+#st-2 .st-total > span {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+}
+#st-2 .st-total > span.st-shares {
+  font-size: 11px;
+  line-height: 11px;
+}
+#st-2 .st-toggle {
+  left: -48px;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #ccc;
+  border-bottom-right-radius: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  width: 48px;
+}
+#st-2.st-hidden .st-toggle {
+  border-top-right-radius: 0px;
+}
+#st-2.st-left .st-toggle .st-left {
+  display: inline-block;
+}
+#st-2.st-left.st-hidden .st-toggle .st-left {
+  display: none;
+}
+#st-2.st-left .st-toggle .st-right {
+  display: none;
+}
+#st-2.st-left.st-hidden .st-toggle .st-right {
+  display: inline-block;
+}#st-2:hover .st-toggle {
+  left: 0;
+}
+#st-2.st-hidden:hover .st-toggle {
+  left: 48px;
+}
+#st-2.st-toggleable:hover .st-btn.st-last {
+  border-bottom-right-radius: 0;
+}
+#st-2.st-toggleable:hover .st-btn.st-last:hover {
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn:hover {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#st-2.st-has-labels .st-btn:hover {
+  width: 120px;
+}
+#st-2:not(.st-has-labels) .st-btn:hover {
+  width: 62px;
+}
+#st-2 .st-btn.st-hide-label:hover {
+  width: 62px;
+}
+#st-2 .st-btn:hover > svg {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > img {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > span {
+  opacity: 1;
+  display: inline-block;
+  left: 0;
+  filter: alpha(opacity=100);
+}
+@media (max-width: 1024px) {
+  #st-2 .st-btn:hover > svg {
+    margin-left: 0;
+  }
+  #st-2 .st-btn:hover > span {
+    display: none;
+  }
+}@media (max-width: 1024px) {
+  #st-2 {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+#st-2.st-hidden {
+  bottom: -48px;
+  width: 100%;
+}
+#st-2.st-hidden.st-left {
+  left: 0;
+}
+#st-2.st-hidden.st-right {
+  right: 0;
+}
+#st-2 > div {
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  clear: none;
+  flex: 1;
+  float: none;
+}
+#st-2 .st-total {
+  background: #fff;
+  padding: 6px 8px;
+}
+#st-2 .st-btn {
+  -moz-border-radius: 0 !important;
+-webkit-border-radius: 0 !important;
+border-radius: 0 !important;
+  text-align: center;
+  width: auto;
+}
+#st-2 .st-btn > span {
+  display: none;
+}
+#st-2 .st-toggle {
+  display: none;
+}body { padding-bottom: 48px; }
+}#st-2 .st-btn[data-network='facebook'] {
+  background-color: #4267B2;
+}
+#st-2 .st-btn[data-network='facebook'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='facebook'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+}
+#st-2 .st-btn[data-network='twitter'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='twitter'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='pinterest'] {
+  background-color: #CB2027;
+}
+#st-2 .st-btn[data-network='pinterest'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='pinterest'] > span {
+  color: #fff;
+}
+#st-2 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A;
+}
+#st-2 .st-btn[data-network='sharethis'] svg {
+  fill: #fff;
+}
+#st-2 .st-btn[data-network='sharethis'] > span {
+  color: #fff;
+}</style></head>
+<body>
+
+
+    <div id="switcher">
+<div class="center">
+<div class="responsive">
+<div class="itemname">TechBlog</div>
+<a href="#" class="desktop active" title="View Desktop Version"></a>
+<a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a>
+<a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a>
+<a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
+<a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
+</div>
+
+            <ul class="links">
+                <li class="backtosite ads">
+                <!-- Begin AdClerks Zone 6523 -->
+<script type="text/javascript">
+(function() {
+var randpubc = Math.floor((Math.random() * 100000) + 1);
+var pubc = document.createElement('script');
+pubc.type = 'text/javascript';
+pubc.async = true;
+pubc.src = '//cdn.adclerks.com/core/ad2/9799/6523?r='+parseInt(randpubc);
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pubc, s);
+})();
+</script>
+<div id="pubclerks_6523"><style type="text/css">.pc_block a{color: #666!important; margin:0; padding:0;}.pc_block a:hover{color: #222!important;}.pc_block {margin: 0;}.pc_block:hover {margin: 0;background: #ddd;text-decoration: underline !important;}.pc_block_inactive {border: 1px solid #BBB;}.pc_block_inactive:hover {border: 1px solid #999;}</style><div class="pc_multiblock"><div class="pc_block pc_block_inactive" style="box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; overflow: hidden; text-align:center; font-size: 11px; font-family:helvetica; font-weight: bold; width:275px; height:60px; background:#E7E7E7; color:#666; line-height:60px;"><a style="text-decoration:none;" target="_blank" href="//adclerks.com/marketplace/website/13702/free-html-templates"><div style="width:275px; height:60px; overflow: hidden; background: transparent; font-weight: bold;">Advertise Here</div></a></div></div></div>
+<!-- End AdClerks Zone 6523 -->
+
+                </li>
+                <li class="backtosite" rel="https://html.design/downloads/tech-blog-free-tech-news-blog-responsive-html-template/">
+                    <a href="https://html.design/downloads/tech-blog-free-tech-news-blog-responsive-html-template/"><img src="images/purchase.png" alt="Download"> Download</a>
+                </li>
+                <li class="backtosite" rel="https://html.design/demo/tech-blog/tech-index.html">
+                    <a href="https://html.design/demo/tech-blog/tech-index.html"><img src="images/cross.png" alt="Remove"> Remove</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <iframe id="iframe" src="https://html.design/demo/tech-blog/tech-index.html" width="100%" height="324px" frameborder="0"></iframe>
+
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a7fc9b308e4bc00136bbe96&amp;product=sticky-share-buttons"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-45529136-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45529136-9');
+</script>
+
+
+
+
+
+<iframe src="https://c.sharethis.mgr.consensu.org/portal-v2.html" id="st_gdpr_iframe" title="GDPR Consent Management" style="width: 0px; height: 0px; position: absolute; left: -5000px;"></iframe><div id="st-2" class=" st-sticky-share-buttons st-left st-toggleable st-has-labels st-show-total "><div class="st-total ">
+  <span class="st-label">218</span>
+  <span class="st-shares">
+    Shares
+  </span>
+</div><div class="st-btn st-first" data-network="facebook" style="display: inline-block;">
+  <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="twitter" style="display: inline-block;">
+  <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+  <span class="st-label">Tweet</span>
+</div><div class="st-btn" data-network="pinterest" style="display: inline-block;">
+  <img alt="pinterest sharing button" src="https://platform-cdn.sharethis.com/img/pinterest.svg">
+  <span class="st-label">Pin</span>
+</div><div class="st-btn st-last" data-network="sharethis" style="display: inline-block;">
+  <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-toggle">
+  <div class="st-left">
+    <img alt="arrow_left sharing button" src="https://platform-cdn.sharethis.com/img/arrow_left.svg">
+  </div>
+  <div class="st-right">
+    <img alt="arrow_right sharing button" src="https://platform-cdn.sharethis.com/img/arrow_right.svg">
+  </div>
+</div></div></body>
+</html>
